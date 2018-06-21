@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string-array name="categories_array">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Toiletries</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="error_wrong_interface">Wrong interface</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_purchased_items">Delete Purchased Items</string>
+    <string name="purchased">Purchased</string>
+    <string name="delete">Delete</string>
+    <string name="view_details">View Details</string>
+    <string name="estimated_price">Estimated price ($)</string>
+    <string name="item_description">Item description</string>
+    <string name="item_name">Item name</string>
+    <string name="priceLabel">Price: $</string>
+</resources>

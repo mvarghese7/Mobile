@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "718034553098",
+    "firebase_url": "https://rosesandthorns-b37c6.firebaseio.com",
+    "project_id": "rosesandthorns-b37c6",
+    "storage_bucket": "rosesandthorns-b37c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718034553098:android:c11c0bce2c1e3041",
+        "android_client_info": {
+          "package_name": "hu.ait.android.rosesandthorns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718034553098-9fggsf896hn5nbg4hfuqr0bf95ofm3cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.ait.android.rosesandthorns",
+            "certificate_hash": "f8a5593a5d364ba92b1f5545adef680d842883c3"
+          }
+        },
+        {
+          "client_id": "718034553098-mrj3i2oe8c6f6ulvgfui5hq96g3bduv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmPEZsDEBrsjN7bUmxyd3pdRw1H7LrnoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718034553098-mrj3i2oe8c6f6ulvgfui5hq96g3bduv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

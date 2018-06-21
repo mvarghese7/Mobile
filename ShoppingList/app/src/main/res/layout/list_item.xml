@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardBackgroundColor="#6BB3D8">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/listItemLayout">
+
+       <ImageView
+           android:id="@+id/ivIcon"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivIcon"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvItemName"
+            android:layout_toRightOf="@id/ivIcon"/>
+
+        <CheckBox
+            android:id="@+id/cbPurchased"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/purchased"
+            android:layout_below="@id/ivIcon"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:layout_below="@id/cbPurchased"/>
+
+        <Button
+            android:id="@+id/btnViewItemDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_details"
+            android:layout_toRightOf="@id/btnDelete"
+            android:layout_below="@id/cbPurchased"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
